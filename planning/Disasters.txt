@@ -1,0 +1,19 @@
+To Do
+- Webify - paper/pen form
+- Database
+- Accessing database - create form
+
+Questionaire
+- FEMA provided Excel-fillable documents with info they want to collect
+
+Don't know which form they will need until they do enough assessments
+- need to reach a certain threshold to reach small business association loan
+- need to get both forms ready to go until threshold is met
+
+1) Allow progressive form completion and aggregation of data
+- needs to work in "sprints"
+
+2) Output either type of form (need to output data to Excel file?)
+- once threshold reached to make decision on personal or small business loan
+
+3) Allow data to continue to be
