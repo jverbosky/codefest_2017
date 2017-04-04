@@ -102,18 +102,18 @@ begin
   ind_forms.push(ind_1, ind_2)
 
   # connect to the database
-  # db_params = {  # production
-  #       host: ENV['host'],  # AWS link
-  #       port:ENV['port'],  # AWS port, always 5432
-  #       dbname:ENV['dbname'],
-  #       user:ENV['dbuser'],
-  #       password:ENV['dbpassword']
-  #     }
-  db_params = {  # local test
+  db_params = {  # AWS db
+        host: ENV['host'],
+        port:ENV['port'],
         dbname:ENV['dbname'],
         user:ENV['dbuser'],
         password:ENV['dbpassword']
       }
+  # db_params = {  # local db
+  #       dbname:ENV['dbname'],
+  #       user:ENV['dbuser'],
+  #       password:ENV['dbpassword']
+  #     }
   conn = PG::Connection.new(db_params)
 
   # local database connection
