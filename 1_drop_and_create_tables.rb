@@ -73,7 +73,7 @@ begin
              flood_insurance varchar(3),
              basement_water varchar(3),
              first_floor_water varchar(3),
-             height_water smallint,
+             height_water numeric(6,3),
              add_comments text,
              assessor_name varchar(50),
              date_assessed date)"
