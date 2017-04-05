@@ -200,7 +200,7 @@ begin
              roads_bridges_damaged smallint,
              households_impacted smallint,
              households_no_utilities smallint,
-             est_date_utility_restore smallint,
+             est_date_utility_restore date,
              comments text)"
 
 rescue PG::Error => e

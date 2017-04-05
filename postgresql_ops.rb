@@ -135,7 +135,7 @@ end
 
 # Updated for Steel City Codefest app
 # Method to identify which column contains specified value
-def match_column(value)
+def match_column_ind(value)
   begin
     columns = ["municipality_name", "name", "street_address"]
     target = ""
@@ -161,7 +161,61 @@ end
 
 # Updated for Steel City Codefest app
 # Method to return hash of all values for record associated with specified value
-def pull_records(value)
+def pull_records_ind(value)
+  begin
+    column = match_column(value)  # determine which column contains the specified value
+    unless column == ""
+      results = []  # array to hold all matching hashes
+      conn = open_db()
+      query = "select *
+               from common
+               join ind on common.id = ind.common_id
+               where " + column + " = $1"  # bind parameter
+      conn.prepare('q_statement', query)
+      rs = conn.exec_prepared('q_statement', [value])
+      conn.exec("deallocate q_statement")
+      rs.each { |result| results.push(result) }
+      return results
+    else
+      return [{"name" => "No matching record - please try again."}]
+    end
+  rescue PG::Error => e
+    puts 'Exception occurred'
+    puts e.message
+  ensure
+    conn.close if conn
+  end
+end
+
+# Updated for Steel City Codefest app
+# Method to identify which column contains specified value
+def match_column_ind_pda(value)
+  begin
+    columns = ["municipality_name", "pda_date", "incident_type"]
+    target = ""
+    conn = open_db() # open database for updating
+    columns.each do |column|  # determine which column contains the specified value
+      query = "select " + column +
+              " from common
+               join ind on common.id = ind_pda.common_id"
+      conn.prepare('q_statement', query)
+      rs = conn.exec_prepared('q_statement')
+      conn.exec("deallocate q_statement")
+      results = rs.values.flatten
+      (results.include? value) ? (return column) : (target = "")
+    end
+    return target
+  rescue PG::Error => e
+    puts 'Exception occurred'
+    puts e.message
+  ensure
+    conn.close if conn
+  end
+end
+
+# Updated for Steel City Codefest app
+# Method to return hash of all values for record associated with specified value
+def pull_records_ind_pda(value)
   begin
     column = match_column(value)  # determine which column contains the specified value
     unless column == ""

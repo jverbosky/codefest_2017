@@ -568,52 +568,234 @@ def seed_individual_pda()
     # individual seed data sets
     ind_pda_1 = {"county" => "Allegheny",
                  "municipality_name" => "Mt Oliver Boro",
-                 "" => ""}
+                 "pda_date" => "03/18/2017",
+                 "incident_type" => "flood",
+                 "af_own_single" => "12",
+                 "af_own_multi" => "3",
+                 "af_own_total_surv" => "15",
+                 "af_p_own" => "100",
+                 "af_own_p_fl_ins" => "40",
+                 "af_own_p_ho_ins" => "90",
+                 "af_own_p_lo_inc" => "20",
+                 "af_own_num_inac" => "2",
+                 "mn_own_single" => "4",
+                 "mn_own_total_surv" => "4",
+                 "mn_p_own" => "100",
+                 "mn_own_p_fl_ins" => "75",
+                 "mn_own_p_ho_ins" => "100",
+                 "mn_own_p_lo_inc" => "25",
+                 "mn_own_num_inac" => "1",
+                 "mj_own_multi" => "2",
+                 "mj_own_total_surv" => "2",
+                 "mj_p_own" => "100",
+                 "mj_own_p_fl_ins" => "50",
+                 "mj_own_p_ho_ins" => "100",
+                 "mj_own_p_lo_inc" => "50",
+                 "mj_own_num_inac" => "1",
+                 "households_impacted" => "21",
+                 "households_no_utilities" => "10",
+                 "est_date_utility_restore" => "03/25/2017",
+                 "comments" => "Localized flooding, homeowners contacted, still collecting details"}
 
     ind_pda_2 = {"county" => "Allegheny",
                  "municipality_name" => "Ohara Twp",
-                 "" => ""}
+                 "pda_date" => "04/02/2017",
+                 "incident_type" => "storm",
+                 # "af_own_single" => "",
+                 # "af_own_multi" => "",
+                 # "af_own_total_surv" => "",
+                 # "af_p_own" => "",
+                 # "af_own_p_fl_ins" => "",
+                 # "af_own_p_ho_ins" => "",
+                 # "af_own_p_lo_inc" => "",
+                 # "af_own_num_inac" => "",
+                 # "mn_own_single" => "",
+                 # "mn_own_multi" => "",
+                 # "mn_own_total_surv" => "",
+                 # "mn_p_own" => "",
+                 # "mn_own_p_fl_ins" => "",
+                 # "mn_own_p_ho_ins" => "",
+                 # "mn_own_p_lo_inc" => "",
+                 # "mn_own_num_inac" => "",
+                 # "mj_own_single" => "",
+                 # "mj_own_multi" => "",
+                 # "mj_own_total_surv" => "",
+                 # "mj_p_own" => "",
+                 # "mj_own_p_fl_ins" => "",
+                 # "mj_own_p_ho_ins" => "",
+                 # "mj_own_p_lo_inc" => "",
+                 # "mj_own_num_inac" => "",
+                 # "roads_bridges_damaged" => "",
+                 # "households_impacted" => "",
+                 # "households_no_utilities" => "",
+                 # "est_date_utility_restore" => "",
+                 # "comments" => ""
+                 }
 
     ind_pda_3 = {"county" => "Allegheny",
                  "municipality_name" => "Pittsburgh City",
-                 "" => ""}
+                 "pda_date" => "03/18/2017",
+                 "incident_type" => "flood",
+                 # "af_own_single" => "",
+                 # "af_own_multi" => "",
+                 # "af_own_total_surv" => "",
+                 # "af_p_own" => "",
+                 # "af_own_p_fl_ins" => "",
+                 # "af_own_p_ho_ins" => "",
+                 # "af_own_p_lo_inc" => "",
+                 # "af_own_num_inac" => "",
+                 # "mn_own_single" => "",
+                 # "mn_own_multi" => "",
+                 # "mn_own_total_surv" => "",
+                 # "mn_p_own" => "",
+                 # "mn_own_p_fl_ins" => "",
+                 # "mn_own_p_ho_ins" => "",
+                 # "mn_own_p_lo_inc" => "",
+                 # "mn_own_num_inac" => "",
+                 # "mj_own_single" => "",
+                 # "mj_own_multi" => "",
+                 # "mj_own_total_surv" => "",
+                 # "mj_p_own" => "",
+                 # "mj_own_p_fl_ins" => "",
+                 # "mj_own_p_ho_ins" => "",
+                 # "mj_own_p_lo_inc" => "",
+                 # "mj_own_num_inac" => "",
+                 # "households_impacted" => "",
+                 # "households_no_utilities" => "",
+                 # "est_date_utility_restore" => "",
+                 # "comments" => ""
+                 }
 
     ind_pda_4 = {"county" => "Allegheny",
                  "municipality_name" => "Swissvale Boro",
-                 "" => ""}
+                 "pda_date" => "02/11/2017",
+                 "incident_type" => "subsidence",
+                 "roads_bridges_damaged" => "1",
+                 "comments" => "10' wide sinkhold at Lacrosse St near Universal Academy of Pittsburgh"}
 
     ind_pda_5 = {"county" => "Allegheny",
                  "municipality_name" => "Mt Lebanon Twp",
-                 "" => ""}
+                 "pda_date" => "04/02/2017",
+                 "incident_type" => "storm",
+                 # "af_own_single" => "",
+                 # "af_own_multi" => "",
+                 # "af_own_total_surv" => "",
+                 # "af_p_own" => "",
+                 # "af_own_p_fl_ins" => "",
+                 # "af_own_p_ho_ins" => "",
+                 # "af_own_p_lo_inc" => "",
+                 # "af_own_num_inac" => "",
+                 # "mn_own_single" => "",
+                 # "mn_own_multi" => "",
+                 # "mn_own_total_surv" => "",
+                 # "mn_p_own" => "",
+                 # "mn_own_p_fl_ins" => "",
+                 # "mn_own_p_ho_ins" => "",
+                 # "mn_own_p_lo_inc" => "",
+                 # "mn_own_num_inac" => "",
+                 # "mj_own_single" => "",
+                 # "mj_own_multi" => "",
+                 # "mj_own_total_surv" => "",
+                 # "mj_p_own" => "",
+                 # "mj_own_p_fl_ins" => "",
+                 # "mj_own_p_ho_ins" => "",
+                 # "mj_own_p_lo_inc" => "",
+                 # "mj_own_num_inac" => "",
+                 # "roads_bridges_damaged" => "",
+                 # "households_impacted" => "",
+                 # "households_no_utilities" => "",
+                 # "est_date_utility_restore" => "",
+                 # "comments" => ""
+                 }
 
     ind_pda_6 = {"county" => "Allegheny",
                  "municipality_name" => "Ross Twp",
-                 "" => ""}
+                 "pda_date" => "03/01/2017",
+                 "incident_type" => "subsidence",
+                 "roads_bridges_damaged" => "1",
+                 "comments" => "Structual damage to Thompson Run Bridge Number 1, currently closed for further review"}
 
     ind_pda_7 = {"county" => "Allegheny",
                  "municipality_name" => "Penn Hills Twp",
-                 "" => ""}
+                 "pda_date" => "01/22/2017",
+                 "incident_type" => "flood",
+                 # "af_own_single" => "",
+                 # "af_own_multi" => "",
+                 # "af_own_total_surv" => "",
+                 # "af_p_own" => "",
+                 # "af_own_p_fl_ins" => "",
+                 # "af_own_p_ho_ins" => "",
+                 # "af_own_p_lo_inc" => "",
+                 # "af_own_num_inac" => "",
+                 # "mn_own_single" => "",
+                 # "mn_own_multi" => "",
+                 # "mn_own_total_surv" => "",
+                 # "mn_p_own" => "",
+                 # "mn_own_p_fl_ins" => "",
+                 # "mn_own_p_ho_ins" => "",
+                 # "mn_own_p_lo_inc" => "",
+                 # "mn_own_num_inac" => "",
+                 # "mj_own_single" => "",
+                 # "mj_own_multi" => "",
+                 # "mj_own_total_surv" => "",
+                 # "mj_p_own" => "",
+                 # "mj_own_p_fl_ins" => "",
+                 # "mj_own_p_ho_ins" => "",
+                 # "mj_own_p_lo_inc" => "",
+                 # "mj_own_num_inac" => "",
+                 # "roads_bridges_damaged" => "",
+                 # "households_impacted" => "",
+                 # "households_no_utilities" => "",
+                 # "est_date_utility_restore" => "",
+                 # "comments" => ""
+                 }
 
     ind_pda_8 = {"county" => "Allegheny",
                  "municipality_name" => "Scott Township",
-                 "" => ""}
+                 "pda_date" => "03/07/2017",
+                 "incident_type" => "storm",
+                 # "af_own_single" => "",
+                 # "af_own_multi" => "",
+                 # "af_own_total_surv" => "",
+                 # "af_p_own" => "",
+                 # "af_own_p_fl_ins" => "",
+                 # "af_own_p_ho_ins" => "",
+                 # "af_own_p_lo_inc" => "",
+                 # "af_own_num_inac" => "",
+                 # "mn_own_single" => "",
+                 # "mn_own_multi" => "",
+                 # "mn_own_total_surv" => "",
+                 # "mn_p_own" => "",
+                 # "mn_own_p_fl_ins" => "",
+                 # "mn_own_p_ho_ins" => "",
+                 # "mn_own_p_lo_inc" => "",
+                 # "mn_own_num_inac" => "",
+                 # "mj_own_single" => "",
+                 # "mj_own_multi" => "",
+                 # "mj_own_total_surv" => "",
+                 # "mj_p_own" => "",
+                 # "mj_own_p_fl_ins" => "",
+                 # "mj_own_p_ho_ins" => "",
+                 # "mj_own_p_lo_inc" => "",
+                 # "mj_own_num_inac" => "",
+                 # "roads_bridges_damaged" => "",
+                 # "households_impacted" => "",
+                 # "households_no_utilities" => "",
+                 # "est_date_utility_restore" => "",
+                 # "comments" => ""
+                 }
 
     ind_pda_9 = {"county" => "Allegheny",
-                 "municipality_name" => "Munhall Boro",
-                 "" => ""}
-
-    ind_pda_10 = {"county" => "Allegheny",
-                 "municipality_name" => "West Homestead Boro",
-                 "" => ""}
-
-    ind_pda_11 = {"county" => "Allegheny",
-                 "municipality_name" => "Green Tree Boro",
-                 "" => ""}
+                 "municipality_name" => "Baldwin Boro",
+                 "pda_date" => "04/02/2017",
+                 "incident_type" => "subsidence",
+                 "roads_bridges_damaged" => "2",
+                 "comments" => "Moderate subsidence at Cathell Rd and Churchview Ave"}
 
     # aggregate user data into multi-dimensional array for iteration
     ind_pda_forms = []
-    ind_pda_forms.push(ind_pda_1, ind_pda_2, ind_pda_3, ind_pda_4,
-                       ind_pda_5, ind_pda_6, ind_pda_7)
+    ind_pda_forms.push(ind_pda_1, ind_pda_2, ind_pda_3, ind_pda_4, ind_pda_5, ind_pda_6,
+                       ind_pda_7, ind_pda_8, ind_pda_9)
 
     # connect to the database
     db_params = {  # AWS db
@@ -637,7 +819,7 @@ def seed_individual_pda()
     max_id["max"] == nil ? v_id = 1 : v_id = max_id["max"].to_i + 1
 
     # iterate through multi-dimensional users array for data
-    ind_forms.each do |form|
+    ind_pda_forms.each do |form|
 
       # initialize variables for SQL insert statements (common table)
       v_county = form["county"]
@@ -776,7 +958,7 @@ def seed_individual_pda()
 
       # prepare SQL statement to insert unique individual form fields into ind_pda table
       conn.prepare('q_statement',
-                   "insert into ind (id, common_id, pda_date, incident_type, page,
+                   "insert into ind_pda (id, common_id, pda_date, incident_type, page,
                       total_pages, pda_team_fema, pda_team_state, pda_team_sba,
                       pda_team_hlo, af_own_single, af_own_multi, af_own_mob,
                       af_own_total_surv, af_p_own, af_own_p_fl_ins, af_own_p_ho_ins,
@@ -811,10 +993,10 @@ def seed_individual_pda()
                       $41, $42, $43, $44, $45, $46, $47, $48, $49, $50, $51, $52, $53,
                       $54, $55, $56, $57, $58, $59, $60, $61, $62, $63, $64, $65, $66,
                       $67, $68, $69, $70, $71, $72, $73, $74, $75, $76, $77, $78, $79,
-                      $80, $81, $82, $83, $84, $85, $86, $87, $88, $89, $89, $90, $91,
-                      $92, $93, $94, $95, $96, $97, $98, $99, $100, $101, $102, $103,
-                      $104, $105, $106, $107, $108, $109, $110, $111, $112, $113, $114,
-                      $115, $116, $117)")
+                      $80, $81, $82, $83, $84, $85, $86, $87, $88, $89, $90, $91, $92,
+                      $93, $94, $95, $96, $97, $98, $99, $100, $101, $102, $103, $104,
+                      $105, $106, $107, $108, $109, $110, $111, $112, $113, $114, $115,
+                      $116, $117, $118, $119)")
 
       # execute prepared SQL statement
       conn.exec_prepared('q_statement', [v_id, v_id, v_pda_date, v_incident_type, v_page,
@@ -870,4 +1052,4 @@ def seed_individual_pda()
 end
 
 seed_individual()
-# seed_individual_pda()
+seed_individual_pda()
