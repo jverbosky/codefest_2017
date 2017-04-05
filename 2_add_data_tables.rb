@@ -352,7 +352,7 @@ def seed_individual()
              "date_assessed" => "4/5/17"}
 
     ind_17 = {"county" => "Allegheny",
-             "municipality_name" => "Mt. Lebanon Township",
+             "municipality_name" => "Mt Lebanon Township",
              "name" => "Sam Gamgee",
              "street_address" => "251 Questend Ave",
              "city" => "Pittsburgh",
@@ -592,6 +592,22 @@ def seed_individual_pda()
 
     ind_pda_7 = {"county" => "Allegheny",
                  "municipality_name" => "Penn Hills Twp",
+                 "" => ""}
+
+    ind_pda_8 = {"county" => "Allegheny",
+                 "municipality_name" => "Scott Township",
+                 "" => ""}
+
+    ind_pda_9 = {"county" => "Allegheny",
+                 "municipality_name" => "Munhall Boro",
+                 "" => ""}
+
+    ind_pda_10 = {"county" => "Allegheny",
+                 "municipality_name" => "West Homestead Boro",
+                 "" => ""}
+
+    ind_pda_11 = {"county" => "Allegheny",
+                 "municipality_name" => "Green Tree Boro",
                  "" => ""}
 
     # aggregate user data into multi-dimensional array for iteration
