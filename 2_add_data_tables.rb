@@ -572,26 +572,8 @@ def seed_individual_pda()
                  "incident_type" => "flood",
                  "af_own_single" => "12",
                  "af_own_multi" => "3",
-                 "af_own_total_surv" => "15",
-                 "af_p_own" => "100",
-                 "af_own_p_fl_ins" => "40",
-                 "af_own_p_ho_ins" => "90",
-                 "af_own_p_lo_inc" => "20",
-                 "af_own_num_inac" => "2",
                  "mn_own_single" => "4",
-                 "mn_own_total_surv" => "4",
-                 "mn_p_own" => "100",
-                 "mn_own_p_fl_ins" => "75",
-                 "mn_own_p_ho_ins" => "100",
-                 "mn_own_p_lo_inc" => "25",
-                 "mn_own_num_inac" => "1",
                  "mj_own_multi" => "2",
-                 "mj_own_total_surv" => "2",
-                 "mj_p_own" => "100",
-                 "mj_own_p_fl_ins" => "50",
-                 "mj_own_p_ho_ins" => "100",
-                 "mj_own_p_lo_inc" => "50",
-                 "mj_own_num_inac" => "1",
                  "households_impacted" => "21",
                  "households_no_utilities" => "10",
                  "est_date_utility_restore" => "03/25/2017",
@@ -600,31 +582,13 @@ def seed_individual_pda()
     ind_pda_2 = {"county" => "Allegheny",
                  "municipality_name" => "Ohara Twp",
                  "pda_date" => "04/02/2017",
-                 "incident_type" => "storm",
+                 "incident_type" => "tornado",
                  # "af_own_single" => "",
                  # "af_own_multi" => "",
-                 # "af_own_total_surv" => "",
-                 # "af_p_own" => "",
-                 # "af_own_p_fl_ins" => "",
-                 # "af_own_p_ho_ins" => "",
-                 # "af_own_p_lo_inc" => "",
-                 # "af_own_num_inac" => "",
                  # "mn_own_single" => "",
                  # "mn_own_multi" => "",
-                 # "mn_own_total_surv" => "",
-                 # "mn_p_own" => "",
-                 # "mn_own_p_fl_ins" => "",
-                 # "mn_own_p_ho_ins" => "",
-                 # "mn_own_p_lo_inc" => "",
-                 # "mn_own_num_inac" => "",
                  # "mj_own_single" => "",
                  # "mj_own_multi" => "",
-                 # "mj_own_total_surv" => "",
-                 # "mj_p_own" => "",
-                 # "mj_own_p_fl_ins" => "",
-                 # "mj_own_p_ho_ins" => "",
-                 # "mj_own_p_lo_inc" => "",
-                 # "mj_own_num_inac" => "",
                  # "roads_bridges_damaged" => "",
                  # "households_impacted" => "",
                  # "households_no_utilities" => "",
@@ -638,28 +602,10 @@ def seed_individual_pda()
                  "incident_type" => "flood",
                  # "af_own_single" => "",
                  # "af_own_multi" => "",
-                 # "af_own_total_surv" => "",
-                 # "af_p_own" => "",
-                 # "af_own_p_fl_ins" => "",
-                 # "af_own_p_ho_ins" => "",
-                 # "af_own_p_lo_inc" => "",
-                 # "af_own_num_inac" => "",
                  # "mn_own_single" => "",
                  # "mn_own_multi" => "",
-                 # "mn_own_total_surv" => "",
-                 # "mn_p_own" => "",
-                 # "mn_own_p_fl_ins" => "",
-                 # "mn_own_p_ho_ins" => "",
-                 # "mn_own_p_lo_inc" => "",
-                 # "mn_own_num_inac" => "",
                  # "mj_own_single" => "",
                  # "mj_own_multi" => "",
-                 # "mj_own_total_surv" => "",
-                 # "mj_p_own" => "",
-                 # "mj_own_p_fl_ins" => "",
-                 # "mj_own_p_ho_ins" => "",
-                 # "mj_own_p_lo_inc" => "",
-                 # "mj_own_num_inac" => "",
                  # "households_impacted" => "",
                  # "households_no_utilities" => "",
                  # "est_date_utility_restore" => "",
@@ -676,31 +622,13 @@ def seed_individual_pda()
     ind_pda_5 = {"county" => "Allegheny",
                  "municipality_name" => "Mt Lebanon Twp",
                  "pda_date" => "04/02/2017",
-                 "incident_type" => "storm",
+                 "incident_type" => "tornado",
                  # "af_own_single" => "",
                  # "af_own_multi" => "",
-                 # "af_own_total_surv" => "",
-                 # "af_p_own" => "",
-                 # "af_own_p_fl_ins" => "",
-                 # "af_own_p_ho_ins" => "",
-                 # "af_own_p_lo_inc" => "",
-                 # "af_own_num_inac" => "",
                  # "mn_own_single" => "",
                  # "mn_own_multi" => "",
-                 # "mn_own_total_surv" => "",
-                 # "mn_p_own" => "",
-                 # "mn_own_p_fl_ins" => "",
-                 # "mn_own_p_ho_ins" => "",
-                 # "mn_own_p_lo_inc" => "",
-                 # "mn_own_num_inac" => "",
                  # "mj_own_single" => "",
                  # "mj_own_multi" => "",
-                 # "mj_own_total_surv" => "",
-                 # "mj_p_own" => "",
-                 # "mj_own_p_fl_ins" => "",
-                 # "mj_own_p_ho_ins" => "",
-                 # "mj_own_p_lo_inc" => "",
-                 # "mj_own_num_inac" => "",
                  # "roads_bridges_damaged" => "",
                  # "households_impacted" => "",
                  # "households_no_utilities" => "",
@@ -721,28 +649,10 @@ def seed_individual_pda()
                  "incident_type" => "flood",
                  # "af_own_single" => "",
                  # "af_own_multi" => "",
-                 # "af_own_total_surv" => "",
-                 # "af_p_own" => "",
-                 # "af_own_p_fl_ins" => "",
-                 # "af_own_p_ho_ins" => "",
-                 # "af_own_p_lo_inc" => "",
-                 # "af_own_num_inac" => "",
                  # "mn_own_single" => "",
                  # "mn_own_multi" => "",
-                 # "mn_own_total_surv" => "",
-                 # "mn_p_own" => "",
-                 # "mn_own_p_fl_ins" => "",
-                 # "mn_own_p_ho_ins" => "",
-                 # "mn_own_p_lo_inc" => "",
-                 # "mn_own_num_inac" => "",
                  # "mj_own_single" => "",
                  # "mj_own_multi" => "",
-                 # "mj_own_total_surv" => "",
-                 # "mj_p_own" => "",
-                 # "mj_own_p_fl_ins" => "",
-                 # "mj_own_p_ho_ins" => "",
-                 # "mj_own_p_lo_inc" => "",
-                 # "mj_own_num_inac" => "",
                  # "roads_bridges_damaged" => "",
                  # "households_impacted" => "",
                  # "households_no_utilities" => "",
@@ -753,31 +663,13 @@ def seed_individual_pda()
     ind_pda_8 = {"county" => "Allegheny",
                  "municipality_name" => "Scott Twp",
                  "pda_date" => "03/07/2017",
-                 "incident_type" => "storm",
+                 "incident_type" => "fire",
                  # "af_own_single" => "",
                  # "af_own_multi" => "",
-                 # "af_own_total_surv" => "",
-                 # "af_p_own" => "",
-                 # "af_own_p_fl_ins" => "",
-                 # "af_own_p_ho_ins" => "",
-                 # "af_own_p_lo_inc" => "",
-                 # "af_own_num_inac" => "",
                  # "mn_own_single" => "",
                  # "mn_own_multi" => "",
-                 # "mn_own_total_surv" => "",
-                 # "mn_p_own" => "",
-                 # "mn_own_p_fl_ins" => "",
-                 # "mn_own_p_ho_ins" => "",
-                 # "mn_own_p_lo_inc" => "",
-                 # "mn_own_num_inac" => "",
                  # "mj_own_single" => "",
                  # "mj_own_multi" => "",
-                 # "mj_own_total_surv" => "",
-                 # "mj_p_own" => "",
-                 # "mj_own_p_fl_ins" => "",
-                 # "mj_own_p_ho_ins" => "",
-                 # "mj_own_p_lo_inc" => "",
-                 # "mj_own_num_inac" => "",
                  # "roads_bridges_damaged" => "",
                  # "households_impacted" => "",
                  # "households_no_utilities" => "",
@@ -849,8 +741,6 @@ def seed_individual_pda()
       v_af_own_single = form["af_own_single"]
       v_af_own_multi = form["af_own_multi"]
       v_af_own_mob = form["af_own_mob"]
-      v_af_own_total_surv = form["af_own_total_surv"]
-      v_af_p_own = form["af_p_own"]
       v_af_own_p_fl_ins = form["af_own_p_fl_ins"]
       v_af_own_p_ho_ins = form["af_own_p_ho_ins"]
       v_af_own_p_lo_inc = form["af_own_p_lo_inc"]
@@ -858,7 +748,6 @@ def seed_individual_pda()
       v_af_rent_single = form["af_rent_single"]
       v_af_rent_multi = form["af_rent_multi"]
       v_af_rent_mob = form["af_rent_mob"]
-      v_af_rent_total_surv = form["af_rent_total_surv"]
       v_af_rent_p_fl_ins = form["af_rent_p_fl_ins"]
       v_af_rent_p_ho_ins = form["af_rent_p_ho_ins"]
       v_af_rent_p_lo_inc = form["af_rent_p_lo_inc"]
@@ -866,17 +755,9 @@ def seed_individual_pda()
       v_af_sec_single = form["af_sec_single"]
       v_af_sec_multi = form["af_sec_multi"]
       v_af_sec_mob = form["af_sec_mob"]
-      v_af_sec_total_surv = form["af_sec_total_surv"]
-      v_af_sec_p_own = form["af_sec_p_own"]
-      v_af_sec_p_fl_ins = form["af_sec_p_fl_ins"]
-      v_af_sec_p_ho_ins = form["af_sec_p_ho_ins"]
-      v_af_sec_p_lo_inc = form["af_sec_p_lo_inc"]
-      v_af_sec_num_inac = form["af_sec_num_inac"]
       v_mn_own_single = form["mn_own_single"]
       v_mn_own_multi = form["mn_own_multi"]
       v_mn_own_mob = form["mn_own_mob"]
-      v_mn_own_total_surv = form["mn_own_total_surv"]
-      v_mn_p_own = form["mn_p_own"]
       v_mn_own_p_fl_ins = form["mn_own_p_fl_ins"]
       v_mn_own_p_ho_ins = form["mn_own_p_ho_ins"]
       v_mn_own_p_lo_inc = form["mn_own_p_lo_inc"]
@@ -884,7 +765,6 @@ def seed_individual_pda()
       v_mn_rent_single = form["mn_rent_single"]
       v_mn_rent_multi = form["mn_rent_multi"]
       v_mn_rent_mob = form["mn_rent_mob"]
-      v_mn_rent_total_surv = form["mn_rent_total_surv"]
       v_mn_rent_p_fl_ins = form["mn_rent_p_fl_ins"]
       v_mn_rent_p_ho_ins = form["mn_rent_p_ho_ins"]
       v_mn_rent_p_lo_inc = form["mn_rent_p_lo_inc"]
@@ -892,17 +772,9 @@ def seed_individual_pda()
       v_mn_sec_single = form["mn_sec_single"]
       v_mn_sec_multi = form["mn_sec_multi"]
       v_mn_sec_mob = form["mn_sec_mob"]
-      v_mn_sec_total_surv = form["mn_sec_total_surv"]
-      v_mn_sec_p_own = form["mn_sec_p_own"]
-      v_mn_sec_p_fl_ins = form["mn_sec_p_fl_ins"]
-      v_mn_sec_p_ho_ins = form["mn_sec_p_ho_ins"]
-      v_mn_sec_p_lo_inc = form["mn_sec_p_lo_inc"]
-      v_mn_sec_num_inac = form["mn_sec_num_inac"]
       v_mj_own_single = form["mj_own_single"]
       v_mj_own_multi = form["mj_own_multi"]
       v_mj_own_mob = form["mj_own_mob"]
-      v_mj_own_total_surv = form["mj_own_total_surv"]
-      v_mj_p_own = form["mj_p_own"]
       v_mj_own_p_fl_ins = form["mj_own_p_fl_ins"]
       v_mj_own_p_ho_ins = form["mj_own_p_ho_ins"]
       v_mj_own_p_lo_inc = form["mj_own_p_lo_inc"]
@@ -910,7 +782,6 @@ def seed_individual_pda()
       v_mj_rent_single = form["mj_rent_single"]
       v_mj_rent_multi = form["mj_rent_multi"]
       v_mj_rent_mob = form["mj_rent_mob"]
-      v_mj_rent_total_surv = form["mj_rent_total_surv"]
       v_mj_rent_p_fl_ins = form["mj_rent_p_fl_ins"]
       v_mj_rent_p_ho_ins = form["mj_rent_p_ho_ins"]
       v_mj_rent_p_lo_inc = form["mj_rent_p_lo_inc"]
@@ -918,17 +789,9 @@ def seed_individual_pda()
       v_mj_sec_single = form["mj_sec_single"]
       v_mj_sec_multi = form["mj_sec_multi"]
       v_mj_sec_mob = form["mj_sec_mob"]
-      v_mj_sec_total_surv = form["mj_sec_total_surv"]
-      v_mj_sec_p_own = form["mj_sec_p_own"]
-      v_m_sec_p_fl_ins = form["m_sec_p_fl_ins"]
-      v_m_sec_p_ho_ins = form["m_sec_p_ho_ins"]
-      v_mj_sec_p_lo_inc = form["mj_sec_p_lo_inc"]
-      v_mj_sec_num_inac = form["mj_sec_num_inac"]
       v_d_own_single = form["d_own_single"]
       v_d_own_multi = form["d_own_multi"]
       v_d_own_mob = form["d_own_mob"]
-      v_d_own_total_surv = form["d_own_total_surv"]
-      v_d_p_own = form["d_p_own"]
       v_d_own_p_fl_ins = form["d_own_p_fl_ins"]
       v_d_own_p_ho_ins = form["d_own_p_ho_ins"]
       v_d_own_p_lo_inc = form["d_own_p_lo_inc"]
@@ -936,7 +799,6 @@ def seed_individual_pda()
       v_d_rent_single = form["d_rent_single"]
       v_d_rent_multi = form["d_rent_multi"]
       v_d_rent_mob = form["d_rent_mob"]
-      v_d_rent_total_surv = form["d_rent_total_surv"]
       v_d_rent_p_fl_ins = form["d_rent_p_fl_ins"]
       v_d_rent_p_ho_ins = form["d_rent_p_ho_ins"]
       v_d_rent_p_lo_inc = form["d_rent_p_lo_inc"]
@@ -944,12 +806,6 @@ def seed_individual_pda()
       v_d_sec_single = form["d_sec_single"]
       v_d_sec_multi = form["d_sec_multi"]
       v_d_sec_mob = form["d_sec_mob"]
-      v_d_sec_total_surv = form["d_sec_total_surv"]
-      v_d_sec_p_own = form["d_sec_p_own"]
-      v_d_sec_p_fl_ins = form["d_sec_p_fl_ins"]
-      v_d_sec_p_ho_ins = form["d_sec_p_ho_ins"]
-      v_d_sec_p_lo_inc = form["d_sec_p_lo_inc"]
-      v_d_sec_num_inac = form["d_sec_num_inac"]
       v_roads_bridges_damaged = form["roads_bridges_damaged"]
       v_households_impacted = form["households_impacted"]
       v_households_no_utilities = form["households_no_utilities"]
@@ -958,77 +814,57 @@ def seed_individual_pda()
 
       # prepare SQL statement to insert unique individual form fields into ind_pda table
       conn.prepare('q_statement',
-                   "insert into ind_pda (id, common_id, pda_date, incident_type, page,
-                      total_pages, pda_team_fema, pda_team_state, pda_team_sba,
-                      pda_team_hlo, af_own_single, af_own_multi, af_own_mob,
-                      af_own_total_surv, af_p_own, af_own_p_fl_ins, af_own_p_ho_ins,
-                      af_own_p_lo_inc, af_own_num_inac, af_rent_single, af_rent_multi,
-                      af_rent_mob, af_rent_total_surv, af_rent_p_fl_ins, af_rent_p_ho_ins,
-                      af_rent_p_lo_inc, af_rent_num_inac, af_sec_single, af_sec_multi,
-                      af_sec_mob, af_sec_total_surv, af_sec_p_own, af_sec_p_fl_ins,
-                      af_sec_p_ho_ins, af_sec_p_lo_inc, af_sec_num_inac, mn_own_single,
-                      mn_own_multi, mn_own_mob, mn_own_total_surv, mn_p_own, mn_own_p_fl_ins,
-                      mn_own_p_ho_ins, mn_own_p_lo_inc, mn_own_num_inac, mn_rent_single,
-                      mn_rent_multi, mn_rent_mob, mn_rent_total_surv, mn_rent_p_fl_ins,
-                      mn_rent_p_ho_ins, mn_rent_p_lo_inc, mn_rent_num_inac, mn_sec_single,
-                      mn_sec_multi, mn_sec_mob, mn_sec_total_surv, mn_sec_p_own,
-                      mn_sec_p_fl_ins, mn_sec_p_ho_ins, mn_sec_p_lo_inc, mn_sec_num_inac,
-                      mj_own_single, mj_own_multi, mj_own_mob, mj_own_total_surv, mj_p_own,
-                      mj_own_p_fl_ins, mj_own_p_ho_ins, mj_own_p_lo_inc, mj_own_num_inac,
-                      mj_rent_single, mj_rent_multi, mj_rent_mob, mj_rent_total_surv,
-                      mj_rent_p_fl_ins, mj_rent_p_ho_ins, mj_rent_p_lo_inc, mj_rent_num_inac,
-                      mj_sec_single, mj_sec_multi, mj_sec_mob, mj_sec_total_surv, mj_sec_p_own,
-                      m_sec_p_fl_ins, m_sec_p_ho_ins, mj_sec_p_lo_inc, mj_sec_num_inac,
-                      d_own_single, d_own_multi, d_own_mob, d_own_total_surv, d_p_own,
+                   "insert into ind_pda (id, common_id, pda_date, incident_type,
+                      page, total_pages, pda_team_fema, pda_team_state,
+                      pda_team_sba, pda_team_hlo, af_own_single, af_own_multi,
+                      af_own_mob, af_own_p_fl_ins, af_own_p_ho_ins, af_own_p_lo_inc,
+                      af_own_num_inac, af_rent_single, af_rent_multi, af_rent_mob,
+                      af_rent_p_fl_ins, af_rent_p_ho_ins, af_rent_p_lo_inc, af_rent_num_inac,
+                      af_sec_single, af_sec_multi, af_sec_mob, mn_own_single,
+                      mn_own_multi, mn_own_mob, mn_own_p_fl_ins, mn_own_p_ho_ins,
+                      mn_own_p_lo_inc, mn_own_num_inac, mn_rent_single, mn_rent_multi,
+                      mn_rent_mob, mn_rent_p_fl_ins, mn_rent_p_ho_ins, mn_rent_p_lo_inc,
+                      mn_rent_num_inac, mn_sec_single, mn_sec_multi, mn_sec_mob,
+                      mj_own_single, mj_own_multi, mj_own_mob, mj_own_p_fl_ins,
+                      mj_own_p_ho_ins, mj_own_p_lo_inc, mj_own_num_inac, mj_rent_single,
+                      mj_rent_multi, mj_rent_mob, mj_rent_p_fl_ins, mj_rent_p_ho_ins,
+                      mj_rent_p_lo_inc, mj_rent_num_inac, mj_sec_single, mj_sec_multi,
+                      mj_sec_mob, d_own_single, d_own_multi, d_own_mob,
                       d_own_p_fl_ins, d_own_p_ho_ins, d_own_p_lo_inc, d_own_num_inac,
-                      d_rent_single, d_rent_multi, d_rent_mob, d_rent_total_surv,
-                      d_rent_p_fl_ins, d_rent_p_ho_ins, d_rent_p_lo_inc, d_rent_num_inac,
-                      d_sec_single, d_sec_multi, d_sec_mob, d_sec_total_surv, d_sec_p_own,
-                      d_sec_p_fl_ins, d_sec_p_ho_ins, d_sec_p_lo_inc, d_sec_num_inac,
-                      roads_bridges_damaged, households_impacted, households_no_utilities,
-                      est_date_utility_restore, comments)
+                      d_rent_single, d_rent_multi, d_rent_mob, d_rent_p_fl_ins,
+                      d_rent_p_ho_ins, d_rent_p_lo_inc, d_rent_num_inac, d_sec_single,
+                      d_sec_multi, d_sec_mob, roads_bridges_damaged, households_impacted,
+                      households_no_utilities, est_date_utility_restore, comments)
                     values($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14,
                       $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27,
                       $28, $29, $30, $31, $32, $33, $34, $35, $36, $37, $38, $39, $40,
                       $41, $42, $43, $44, $45, $46, $47, $48, $49, $50, $51, $52, $53,
                       $54, $55, $56, $57, $58, $59, $60, $61, $62, $63, $64, $65, $66,
                       $67, $68, $69, $70, $71, $72, $73, $74, $75, $76, $77, $78, $79,
-                      $80, $81, $82, $83, $84, $85, $86, $87, $88, $89, $90, $91, $92,
-                      $93, $94, $95, $96, $97, $98, $99, $100, $101, $102, $103, $104,
-                      $105, $106, $107, $108, $109, $110, $111, $112, $113, $114, $115,
-                      $116, $117, $118, $119)")
+                      $80, $81, $82, $83)")
 
       # execute prepared SQL statement
-      conn.exec_prepared('q_statement', [v_id, v_id, v_pda_date, v_incident_type, v_page,
-                      v_total_pages, v_pda_team_fema, v_pda_team_state, v_pda_team_sba,
-                      v_pda_team_hlo, v_af_own_single, v_af_own_multi, v_af_own_mob,
-                      v_af_own_total_surv, v_af_p_own, v_af_own_p_fl_ins, v_af_own_p_ho_ins,
-                      v_af_own_p_lo_inc, v_af_own_num_inac, v_af_rent_single, v_af_rent_multi,
-                      v_af_rent_mob, v_af_rent_total_surv, v_af_rent_p_fl_ins, v_af_rent_p_ho_ins,
-                      v_af_rent_p_lo_inc, v_af_rent_num_inac, v_af_sec_single, v_af_sec_multi,
-                      v_af_sec_mob, v_af_sec_total_surv, v_af_sec_p_own, v_af_sec_p_fl_ins,
-                      v_af_sec_p_ho_ins, v_af_sec_p_lo_inc, v_af_sec_num_inac, v_mn_own_single,
-                      v_mn_own_multi, v_mn_own_mob, v_mn_own_total_surv, v_mn_p_own,
-                      v_mn_own_p_fl_ins, v_mn_own_p_ho_ins, v_mn_own_p_lo_inc, v_mn_own_num_inac,
-                      v_mn_rent_single, v_mn_rent_multi, v_mn_rent_mob, v_mn_rent_total_surv,
-                      v_mn_rent_p_fl_ins, v_mn_rent_p_ho_ins, v_mn_rent_p_lo_inc, v_mn_rent_num_inac,
-                      v_mn_sec_single, v_mn_sec_multi, v_mn_sec_mob, v_mn_sec_total_surv,
-                      v_mn_sec_p_own, v_mn_sec_p_fl_ins, v_mn_sec_p_ho_ins, v_mn_sec_p_lo_inc,
-                      v_mn_sec_num_inac, v_mj_own_single, v_mj_own_multi, v_mj_own_mob,
-                      v_mj_own_total_surv, v_mj_p_own, v_mj_own_p_fl_ins, v_mj_own_p_ho_ins,
-                      v_mj_own_p_lo_inc, v_mj_own_num_inac, v_mj_rent_single, v_mj_rent_multi,
-                      v_mj_rent_mob, v_mj_rent_total_surv, v_mj_rent_p_fl_ins, v_mj_rent_p_ho_ins,
+      conn.exec_prepared('q_statement', [v_id, v_id, v_pda_date, v_incident_type,
+                      v_page, v_total_pages, v_pda_team_fema, v_pda_team_state,
+                      v_pda_team_sba, v_pda_team_hlo, v_af_own_single, v_af_own_multi,
+                      v_af_own_mob, v_af_own_p_fl_ins, v_af_own_p_ho_ins, v_af_own_p_lo_inc,
+                      v_af_own_num_inac, v_af_rent_single, v_af_rent_multi, v_af_rent_mob,
+                      v_af_rent_p_fl_ins, v_af_rent_p_ho_ins, v_af_rent_p_lo_inc, v_af_rent_num_inac,
+                      v_af_sec_single, v_af_sec_multi, v_af_sec_mob, v_mn_own_single,
+                      v_mn_own_multi, v_mn_own_mob, v_mn_own_p_fl_ins, v_mn_own_p_ho_ins,
+                      v_mn_own_p_lo_inc, v_mn_own_num_inac, v_mn_rent_single, v_mn_rent_multi,
+                      v_mn_rent_mob, v_mn_rent_p_fl_ins, v_mn_rent_p_ho_ins, v_mn_rent_p_lo_inc,
+                      v_mn_rent_num_inac, v_mn_sec_single, v_mn_sec_multi, v_mn_sec_mob,
+                      v_mj_own_single, v_mj_own_multi, v_mj_own_mob, v_mj_own_p_fl_ins,
+                      v_mj_own_p_ho_ins, v_mj_own_p_lo_inc, v_mj_own_num_inac, v_mj_rent_single,
+                      v_mj_rent_multi, v_mj_rent_mob, v_mj_rent_p_fl_ins, v_mj_rent_p_ho_ins,
                       v_mj_rent_p_lo_inc, v_mj_rent_num_inac, v_mj_sec_single, v_mj_sec_multi,
-                      v_mj_sec_mob, v_mj_sec_total_surv, v_mj_sec_p_own, v_m_sec_p_fl_ins,
-                      v_m_sec_p_ho_ins, v_mj_sec_p_lo_inc, v_mj_sec_num_inac, v_d_own_single,
-                      v_d_own_multi, v_d_own_mob, v_d_own_total_surv, v_d_p_own, v_d_own_p_fl_ins,
-                      v_d_own_p_ho_ins, v_d_own_p_lo_inc, v_d_own_num_inac, v_d_rent_single,
-                      v_d_rent_multi, v_d_rent_mob, v_d_rent_total_surv, v_d_rent_p_fl_ins,
+                      v_mj_sec_mob, v_d_own_single, v_d_own_multi, v_d_own_mob,
+                      v_d_own_p_fl_ins, v_d_own_p_ho_ins, v_d_own_p_lo_inc, v_d_own_num_inac,
+                      v_d_rent_single, v_d_rent_multi, v_d_rent_mob, v_d_rent_p_fl_ins,
                       v_d_rent_p_ho_ins, v_d_rent_p_lo_inc, v_d_rent_num_inac, v_d_sec_single,
-                      v_d_sec_multi, v_d_sec_mob, v_d_sec_total_surv, v_d_sec_p_own,
-                      v_d_sec_p_fl_ins, v_d_sec_p_ho_ins, v_d_sec_p_lo_inc, v_d_sec_num_inac,
-                      v_roads_bridges_damaged, v_households_impacted, v_households_no_utilities,
-                      v_est_date_utility_restore, v_comments])
+                      v_d_sec_multi, v_d_sec_mob, v_roads_bridges_damaged, v_households_impacted,
+                      v_households_no_utilities, v_est_date_utility_restore, v_comments])
 
       # deallocate prepared statement variable (avoid error "prepared statement already exists")
       conn.exec("deallocate q_statement")
