@@ -14,6 +14,7 @@ def seed_individual()
     # individual seed data sets
     ind_1 = {"county" => "Allegheny",
              "municipality_name" => "Ohara Twp",
+             "image" => "flood-damage.jpg",
              "name" => "John Doe",
              "street_address" => "123 Main St",
              "city" => "Pittsburgh",
@@ -29,6 +30,7 @@ def seed_individual()
 
     ind_2 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "Flood-damage-Rochester-Jeb-Wallace-Brodeur.jpg",
              "name" => "Phil Atwater",
              "street_address" => "1511 Fallowfield Ave",
              "city" => "Pittsburgh",
@@ -53,6 +55,7 @@ def seed_individual()
 
     ind_3 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "Pippin-road-flood-damage-tn1.jpg",
              "name" => "Bill Roberts",
              "street_address" => "4268 Stanton Ave",
              "city" => "Pittsburgh",
@@ -77,6 +80,7 @@ def seed_individual()
 
     ind_4 = {"county" => "Allegheny",
              "municipality_name" => "Swissvale Boro",
+             "image" => "download.jpg",
              "name" => "Eileen Estevez",
              "street_address" => "925 Laclair St",
              "city" => "Pittsburgh",
@@ -98,6 +102,7 @@ def seed_individual()
 
     ind_5 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "denver-flood-restoration-services.jpg",
              "name" => "Mary St. John",
              "street_address" => "5631 Carnegie",
              "city" => "Pittsburgh",
@@ -118,6 +123,7 @@ def seed_individual()
 
     ind_6 = {"county" => "Allegheny",
              "municipality_name" => "Mt Lebanon Twp",
+             "image" => "Flood-damage-US-Naval-Academy.jpg",
              "name" => "James Pasteur",
              "street_address" => "116 Sunridge Dr",
              "city" => "Pittsburgh",
@@ -136,6 +142,7 @@ def seed_individual()
 
     ind_7 = {"county" => "Allegheny",
              "municipality_name" => "Ross Twp",
+             "image" => "borregoflooddamgage.JPG",
              "name" => "Margaret Shelby",
              "street_address" => "4140 Perrysville Ave",
              "city" => "Pittsburgh",
@@ -156,6 +163,7 @@ def seed_individual()
 
     ind_8 = {"county" => "Allegheny",
              "municipality_name" => "Penn Hills Twp",
+             "image" => "Flooded-house.jpg",
              "name" => "Frank Hatchett",
              "street_address" => "1706 Laporte St",
              "city" => "Pittsburgh",
@@ -176,6 +184,7 @@ def seed_individual()
 
     ind_9 = {"county" => "Allegheny",
              "municipality_name" => "Mt Oliver Boro",
+             "image" => "AR-150819621.jpg",
              "name" => "Sally Malone",
              "street_address" => "413 Otillia St",
              "city" => "Pittsburgh",
@@ -206,6 +215,7 @@ def seed_individual()
 
     ind_10 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "57b23895775b2.image.jpg",
              "name" => "Mike Presley",
              "street_address" => "3766 Windgap Ave",
              "city" => "Pittsburgh",
@@ -225,6 +235,7 @@ def seed_individual()
 
     ind_11 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "flooded-garden1-400x300.jpg",
              "name" => "Ralph Bronstein",
              "street_address" => "1 Trimont Lane 820b",
              "city" => "Pittsburgh",
@@ -243,6 +254,7 @@ def seed_individual()
 
     ind_12 = {"county" => "Allegheny",
              "municipality_name" => "Scott Twp",
+             "image" => "Flood-Damage-Restoration-Santa-Clara-CA-1.jpg",
              "name" => "Ralph Bronstein",
              "street_address" => "421 Morrison Dr",
              "city" => "Pittsburgh",
@@ -262,6 +274,7 @@ def seed_individual()
 
     ind_13 = {"county" => "Allegheny",
              "municipality_name" => "Munhall Boro",
+             "image" => "Flood-Damage-Lawyer.jpg",
              "name" => "Bill Davis Rolfe",
              "street_address" => "4589 Mapledale Dr",
              "city" => "Pittsburgh",
@@ -292,6 +305,7 @@ def seed_individual()
 
     ind_14 = {"county" => "Allegheny",
              "municipality_name" => "West Homestead Boro",
+             "image" => "Dana-Point-flood-damage-repair-300x124.jpg",
              "name" => "David Rolfe",
              "street_address" => "607 Somerville Dr",
              "city" => "Pittsburgh",
@@ -314,6 +328,7 @@ def seed_individual()
 
     ind_15 = {"county" => "Allegheny",
              "municipality_name" => "Green Tree Boro",
+             "image" => "56a2d6ef03386.image.jpg",
              "name" => "Howard Domers",
              "street_address" => "1967 Warriors Rd",
              "city" => "Pittsburgh",
@@ -333,6 +348,7 @@ def seed_individual()
 
     ind_16 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "clay-county-flood-damage-services.jpg",
              "name" => "Richard Flanagan",
              "street_address" => "405 E Carson St",
              "city" => "Pittsburgh",
@@ -353,6 +369,7 @@ def seed_individual()
 
     ind_17 = {"county" => "Allegheny",
              "municipality_name" => "Mt Lebanon Twp",
+             "image" => "Residential-Flood-Damage-Dayton-OH.jpg",
              "name" => "Sam Gamgee",
              "street_address" => "251 Questend Ave",
              "city" => "Pittsburgh",
@@ -372,6 +389,7 @@ def seed_individual()
 
     ind_18 = {"county" => "Allegheny",
              "municipality_name" => "Baldwin Boro",
+             "image" => "4381732_original.jpg",
              "name" => "Thomas Sawyer",
              "street_address" => "645 Calera St",
              "city" => "Pittsburgh",
@@ -394,6 +412,7 @@ def seed_individual()
 
     ind_19 = {"county" => "Allegheny",
              "municipality_name" => "Pittsburgh City",
+             "image" => "water-1.jpg",
              "name" => "Gerry Fichte",
              "street_address" => "5741 Kentucky Ave",
              "city" => "Pittsburgh",
@@ -449,15 +468,16 @@ def seed_individual()
       # initialize variables for SQL insert statements (common table)
       v_county = form["county"]
       v_municipality_name = form["municipality_name"]
+      v_image = form["image"]
 
       # prepare SQL statement to insert common individual form fields into common table
       conn.prepare('q_statement',
                    "insert into common
-                     (id, county, municipality_name)
-                    values($1, $2, $3)")  # bind parameters
+                     (id, county, municipality_name, image)
+                    values($1, $2, $3, $4)")  # bind parameters
 
       # execute prepared SQL statement
-      conn.exec_prepared('q_statement', [v_id, v_county, v_municipality_name])
+      conn.exec_prepared('q_statement', [v_id, v_county, v_municipality_name, v_image])
 
       # deallocate prepared statement variable (avoid error "prepared statement already exists")
       conn.exec("deallocate q_statement")
@@ -930,4 +950,4 @@ def seed_individual_pda()
 end
 
 seed_individual()
-seed_individual_pda()
+# seed_individual_pda()

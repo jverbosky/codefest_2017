@@ -27,7 +27,8 @@ begin
   conn.exec "create table common (
              id int primary key,
              county varchar(60),
-             municipality_name varchar(60))"
+             municipality_name varchar(60),
+             image varchar(80))"
 
   # drop ind table if it exists
   conn.exec "drop table if exists ind"
